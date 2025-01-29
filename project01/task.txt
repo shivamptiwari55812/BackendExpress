@@ -1,0 +1,21 @@
+REST API -JSON
+
+GET /users  -List all the users
+
+GET /users/1 -GEt the user with ID 1;
+
+POST /users -create new user;
+
+PATCH  /users/1  -Edit the user with ID 1;
+
+DELETE /users/1 -Deletes the user with ID 1;
+
+Dynamic path parameters
+
+GET /api/users/:id
+
+
+//Schema = define the structure 
+
+schema = model 
+using model we perform CRUD operations
